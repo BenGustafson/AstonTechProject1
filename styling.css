@@ -1,8 +1,16 @@
-/*1.Include Image With grey background
-/*2. Create white Banner with click buttons
-/*3. Create Black Border with white inside
-/*4. Orange Header Texts
-/*5. Make 3 Columns
-/*6. Make column boxes orange
-/*7. Make column text white
 
+body {
+  background-color: powderblue;
+}
+
+header.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+
+h1 {
+  color: blue;
+}
+p {
+  color: red;
+}
